@@ -6,8 +6,8 @@ real_name_server = '8.8.8.8' # Research public DNS servers to find a valid DNS s
 
 
 # Create a list of domain names to query - use the same list from the DNS Server
-# domainList  = ['example.com.','safebank.com','google.com','nyu.edu','legitsite.com']
-domainList  = ['nyu.edu']
+domainList  = ['example.com.','safebank.com','google.com','nyu.edu','legitsite.com']
+# domainList  = ['nyu.edu']
 # Define a function to query the local DNS server for the IP address of a given domain name
 def query_local_dns_server(domain,question_type):
     resolver = dns.resolver.Resolver()
